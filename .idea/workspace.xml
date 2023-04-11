@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ca4acb5-8a0b-4734-b149-a4c9e5c0a057" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VotingApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/model/Party.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/model/Voter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/PartyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/PartyRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/PartyRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/VotersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/VotersRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/VotersRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/Request/PartyRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/Request/VotersRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/Response/PartyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/Response/VotersResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PartyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PartyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PartyServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VotersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VotersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VotersServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VotingAppImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VotingAppImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VotingAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/PartyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/VotersMapper.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mhjme4xxb9sU7BQ7T3x0jypKWd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/IdeaProjects/VotingApp/src/data&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+      <recent name="data.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VotingAppImplTest.voterCanCastVoteForAParty">
+    <configuration name="PartyServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PartyServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartyServiceImplTest.findPartyById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PartyServiceImplTest" />
+      <option name="METHOD_NAME" value="findPartyById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartyServiceImplTest.partyNameIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PartyServiceImplTest" />
+      <option name="METHOD_NAME" value="partyNameIsNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VotingAppImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VotingAppImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VotingAppImplTest.voterCanCastVoteForAParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VotingAppImplTest" />
+      <option name="METHOD_NAME" value="voterCanCastVoteForAParty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VotingAppImplTest.voterCanCastVoteForAParty" />
+        <item itemvalue="JUnit.VotingAppImplTest" />
+        <item itemvalue="JUnit.PartyServiceImplTest.findPartyById" />
+        <item itemvalue="JUnit.PartyServiceImplTest" />
+        <item itemvalue="JUnit.PartyServiceImplTest.partyNameIsNotNull" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ca4acb5-8a0b-4734-b149-a4c9e5c0a057" name="Changes" comment="" />
+      <created>1678226871270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678226871270</updated>
+      <workItem from="1678226873321" duration="46655000" />
+      <workItem from="1679181938276" duration="603000" />
+      <workItem from="1679271959204" duration="3667000" />
+      <workItem from="1679396602104" duration="3410000" />
+      <workItem from="1679421094186" duration="3304000" />
+      <workItem from="1679464406444" duration="2425000" />
+      <workItem from="1679525423859" duration="851000" />
+      <workItem from="1679677664759" duration="112000" />
+      <workItem from="1679783205525" duration="1055000" />
+      <workItem from="1679871587248" duration="5264000" />
+      <workItem from="1679879818926" duration="2845000" />
+      <workItem from="1679938482218" duration="171000" />
+      <workItem from="1681065237422" duration="1270000" />
+      <workItem from="1681075727078" duration="601000" />
+      <workItem from="1681141246862" duration="1195000" />
+      <workItem from="1681167531343" duration="1213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
